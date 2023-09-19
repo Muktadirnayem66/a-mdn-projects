@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+:root {
+    --main:rgb(249,244,251) ;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+p, li, h1,h2, h3 , h4{
+    color: gray;
+}
+.alerts{
+background:var(--main) ;
+text-align: center;
+padding: 10px;
+}
+.navbars{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+.navbars i{
+    position: absolute;
+    margin: 10px 150px;
+}
+.navbars input{
+    border-radius: 15px;
+    border: 1px solid blue;
+    outline: none;
+    height: 30px;
+    padding: 5px 15px;
+
+}
+.logins{
+    background: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.singups{
+    cursor: pointer;
+    background: black;
+    color: white;
+    padding: 10px 29px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.Hmenus ul{
+    display: flex;
+    gap: 38px;
+    list-style-type: none;
+    margin: 10px;
+    
+}
+
+
+.bradcamps{
+    display: flex;
+    gap: 20px;
+    background:var(--main) ;
+    padding: 0 20px;
+}
+main{
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.Body1st{
+    width: 150vh;
+    margin: 15px;
+
+}
+.Body1st i{
+    position: absolute;
+}
+.Body1st .inst1{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.Body1st p{
+    gap: 20px;
+    margin:20px 20px;
+}
+.Body2nd{
+    margin: 20px;
+    width: 400vh;
+    margin-right: 60px;
+
+}
+.Body2nd .body-card{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: var(--main);
+    padding: 15px 15px;
+    margin: 40px 0;
+}
+
+.Body2nd .body-card p{
+    margin: 20px 0;
+}
+.Body2nd p{
+    margin-top: 20px;
+    line-height: 29px;
+}
+
+.Body3rd{
+    width:100vh ;
+    margin: 20px;
+}
+.Body3rd ul{
+    list-style-type: none;
+
+}
+.Body3rd ul li{
+    margin: 20px 0;
+
+}
+
+footer {
+    background-color: var(--main);
+    padding: 20px 20px;
+
+}
+
+.allFooters{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+    color: gray;
+}
+.footer1 h3{
+    padding:8px 0 ;
+}
+.footer1 .footer1-icons i{
+    padding: 20px 10px;
+    cursor: pointer;
+}
+footer ul{
+    list-style-type: none;
+    margin: 15px;
+    margin-left: -3px;
+    
+}
+footer ul li{
+    padding: 5px;
+}
+
+footer ul li a{
+    color: gray;
+}
+footer small{
+color: gray;
+}
